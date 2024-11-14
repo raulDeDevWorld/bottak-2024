@@ -246,8 +246,8 @@ const OnboardingQuestions = () => {
     };
 
     return (
-        <div className="relative w-full inset-0 flex justify-center items-center p-3 md:p-0">
-            <div className="bg-white rounded-[5px] p-6 w-full max-w-[1000px] text-center">
+        <div className="relative w-full inset-0 flex justify-center items-center p-0 md:p-0">
+            <div className="bg-white rounded-[5px] p-3 md:p-5 w-full max-w-[1000px] text-center">
                 <h2 className="text-2xl font-bold mb-6 text-black">Onboarding</h2>
 
                 {/* Mostrar el título del grupo actual */}
