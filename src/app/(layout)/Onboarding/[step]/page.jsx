@@ -264,7 +264,7 @@ const OnboardingQuestions = () => {
                                 {question.options.map((option, index) => (
                                     <button
                                         key={index}
-                                        onClick={() =>
+                                        onClick={() =>    
                                             handleOptionAnswer(
                                                 questionGroups[currentGroup].groupKey,
                                                 question.question,
