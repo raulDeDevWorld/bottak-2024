@@ -1,0 +1,31 @@
+
+.container {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #ff8a8a;
+    border-radius: 100%;
+    animation: load 1.5s ease-out infinite;
+}
+.ping {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 100%;
+}
+
+@keyframes load {
+    0% {
+        width: 10px;
+    height: 10px;
+   }
+    50% {
+        width: 15px;
+    height: 15px;
+   }
+    100% {
+        width: 10px;
+    height: 10px;
+   }
+}
